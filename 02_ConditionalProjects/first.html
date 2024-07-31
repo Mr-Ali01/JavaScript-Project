@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <a href="#">Welcome To Conditonal Mini Project</a>
+        </div>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav> 
+    </header>
+    
+    <!-- Main Content Section -->
+    <main class="main-content">
+        <!-- First-Project -->
+        <section id="first-project" class="box">
+            <h2 id="number-title">Positive and Nagative number</h2>
+           <input type="text" class="ip-box" placeholder="Enter the number">
+           <button type="button" class="check-number">Check</button>
+           <p id="result"> </p>
+           <p id="desc">You can check whether a number is positive, negative, or zero using conditional statement</p>
+        </section>
+        <!-- second-section -->
+        <section id="second-project" class="box">
+            <h2 id="age-title">Check eligible for vote</h1>
+                <input type="text" id="ip-age" placeholder="Enter the age">
+                <button type="button" id="check-age">Check</button>
+                <p id="result-age"></p>
+                <p class="vote-desc">You can check whether you are eligible to vote or not</p>
+        </section>
+        <!-- Third-section -->
+        <section id="third-project" class="box">
+            <h2 id="day-titile">The name of the day</h2>
+            <input type="text" id="day-name" placeholder="Enter the day of the number">
+            <button type="button" id="check-day">Click</button>
+            <p id="result-day"></p>
+            <p class="day-desc">You can check the name of the day of the week</p>
+        </section>
+
+        <!-- Fouth-section -->
+        <section id="fourth-project" class="box">
+           <h2 class="cgpa-title">CGPA Calculator</h2>
+           <input type="text" id="cgpa-values" placeholder="Enter the number separated by comma(',')">
+           <button type="button" id="check-cgpa">Click</button>
+           <p id="cgpa-result"></p>
+            <p class="cgpa-desc">You can calculate the BCA cgpa</p>
+        </section>
+
+        <!--  Five-Project -->
+         <section id="five-Project" class="box">
+            <h2 class="year-title">Check Leap Year</h2>
+            <input type="text" class="leap-year" placeholder="Enter the year">
+            <button id="check-year">Click</button>
+            <p id="year-result"></p>
+            <p class="leap-year-desc">You can check the year is leap year or not.</p>
+         </section>
+
+         <!-- six-Project -->
+         <section id="six-Project" class="box">
+            <h2 class="keyword-title">Check type keyword</h2>
+            <input type="text" class="key-char" placeholder="Enter the keyword">
+            <!-- <button id="check-keyword">Click</button> -->
+            <p id="char-result"></p>
+            <p id="char-code"></p>
+            <p class="key-char-desc">You can check what kind of keyword you have entered.</p>
+         </section> 
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 My Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
