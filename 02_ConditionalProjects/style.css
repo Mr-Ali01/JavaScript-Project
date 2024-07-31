@@ -1,0 +1,388 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 0 20px;
+}
+
+.header .logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar .nav-links a:hover {
+    color: #f39c12;
+}
+
+
+/* Responsive */
+@media (max-width:815px) {
+    .navbar .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: #333;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        right: 0;
+    }
+
+    .navbar .nav-links li {
+        margin: 15px 0;
+    }
+    .logo a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+}
+.main-content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* border: 5px solid black; */
+}
+
+.box{
+    width: 350px;
+    height: 180px;
+    border: 2px solid rgb(72, 72, 72);
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+#first-project{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+#first-project #number-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+   text-align: center;
+   color: #333;
+}
+#first-project .ip-box{
+    max-width: 100%;
+    height: 28px;
+    background-color: #97D9E1;
+    margin: 0 5px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#first-project .check-number{
+    width: 70px;
+    height: 30px;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid green;
+}
+#first-project #result{
+    margin: 0.7rem;
+   font-size: 1.1rem;
+   font-weight: bold;
+   text-align: center;
+color: rgb(64, 62, 62);
+}
+#first-project #desc{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+/* Second */
+#second-project{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+#second-project #age-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+   text-align: center;
+   color: #333;
+}
+#second-project #ip-age{
+    max-width: 100%;
+    height: 28px;
+    background-color: #97D9E1;
+    margin: 0 5px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#second-project #check-age{
+    width: 70px;
+    height: 30px;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid green;
+}
+#second-project #result-age{
+    margin: 0.7rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+ color: rgb(64, 62, 62);
+}
+#second-project .vote-desc{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+/* Third-Project */
+#third-project{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+#third-project #day-titile{
+    font-size: 1.2rem;
+    font-weight: bold;
+   text-align: center;
+   color: #333;
+}
+#third-project #day-name{
+    width: 260px;
+    height: 28px;
+    background-color: #97D9E1;
+    margin: 0 5px;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#third-project #check-day{
+    width: 70px;
+    height: 30px;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid green;
+}
+#third-project #result-day{
+    margin: 0.7rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+ color: rgb(64, 62, 62);
+}
+#third-project .day-desc{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+/* fourth project */
+#fourth-project{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+#fourth-project #cgpa-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+#fourth-project #cgpa-values{
+    width: 260px;
+    height: 28px;
+    background-color: #97D9E1;
+    margin: 0 5px;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+#fourth-project #check-cgpa{
+    width: 70px;
+    height: 30px;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid green;
+}
+#fourth-project #cgpa-result{
+    margin: 0.7rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+ color: rgb(64, 62, 62);
+}
+#fourth-project .cgpa-desc{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Five-project */
+#five-Project{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+#five-Project .year-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+#five-Project .leap-year{
+    width: 240px;
+    height: 28px;
+    background-color: #97D9E1;
+    margin: 0 5px;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+#five-Project #check-year{
+    width: 70px;
+    height: 30px;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid green;
+}
+#five-Project #year-result{
+    margin: 0.7rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(64, 62, 62);
+}
+#five-Project .leap-year-desc{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+/* six-project */
+#six-Project{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+#six-Project .keyword-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+#six-Project .key-char{
+    width: 240px;
+    height: 28px;
+    background-color: #97D9E1;
+    margin: 0 2px;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+/* #six-Project #check-keyword{
+    width: 70px;
+    height: 30px;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid green;
+} */
+#six-Project #char-result{
+    margin-top: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(64, 62, 62);
+}
+#six-Project #char-code{
+    margin-top: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(64, 62, 62);
+}
+#six-Project .key-char-desc{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.footer {
+    /* margin-top: 62px; */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
