@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* 1 header */
 .header {
     height: 40px;
@@ -53,11 +54,12 @@
         top: 60px;
         right: 0;
     }
-    
+
     .navbar .nav-links li {
         margin: 15px 0;
     }
-    .logo a{
+
+    .logo a {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -67,8 +69,9 @@
         display: flex;
     }
 }
+
 /* main-content */
-#main-content{
+#main-content {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -76,27 +79,32 @@
     justify-content: center;
     align-items: center;
 }
-.box{
+
+/* First-project-styles */
+.box {
     width: 360px;
-    height: 180px;
+    height: 200px;
     border: 2px solid rgb(72, 72, 72);
     background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-image: linear-gradient(45deg, #19f680 0%, #e7e384 100%);
     padding-top: 0.3rem;
 }
-#print-content{
+
+#print-content {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
 }
-#print-content #print-title{
+
+#print-content #print-title {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
     color: #333;
 }
-#print-content #print-value{
+
+#print-content #print-value {
     max-width: 100%;
     height: 28px;
     background-color: #97D9E1;
@@ -108,7 +116,8 @@
     font-size: 1rem;
     font-weight: bold;
 }
-#print-content #click-print{
+
+#print-content #click-print {
     width: 70px;
     height: 30px;
     border-radius: 0.5rem;
@@ -117,33 +126,38 @@
     font-weight: bold;
     border: 2px solid green;
 }
-#print-content #result{
+
+#print-content #result {
     margin: 0.7rem;
     font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
     color: rgb(64, 62, 62);
 }
-#print-content #print-desc{
+
+#print-content #print-desc {
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
+
 /* second-project-styles */
-#table-content{
+#table-content {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
 }
-#table-content #table-title{
+
+#table-content #table-title {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
     color: #333;
 }
-#table-content #table-value{
+
+#table-content #table-value {
     width: 260px;
     height: 28px;
     background-color: #97D9E1;
@@ -156,7 +170,8 @@
     font-size: 1rem;
     font-weight: bold;
 }
-#table-content #click-table{
+
+#table-content #click-table {
     width: 70px;
     height: 30px;
     border-radius: 0.5rem;
@@ -165,14 +180,16 @@
     font-weight: bold;
     border: 2px solid green;
 }
-#table-content #table-result{
+
+#table-content #table-result {
     margin: 0.7rem;
     font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
- color: rgb(64, 62, 62);
+    color: rgb(64, 62, 62);
 }
-#table-content #table-desc{
+
+#table-content #table-desc {
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
@@ -180,19 +197,21 @@
 }
 
 /* Third-project-style */
-#addition-content{
+#addition-content {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
 }
-#addition-content #add-title{
+
+#addition-content #add-title {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
     color: #333;
 }
-#addition-content #sum-value{
+
+#addition-content #sum-value {
     width: 260px;
     height: 28px;
     background-color: #97D9E1;
@@ -205,7 +224,8 @@
     font-size: 1rem;
     font-weight: bold;
 }
-#addition-content #click-button{
+
+#addition-content #click-button {
     width: 70px;
     height: 30px;
     border-radius: 0.5rem;
@@ -214,33 +234,38 @@
     font-weight: bold;
     border: 2px solid green;
 }
-#addition-content #sum-result{
+
+#addition-content #sum-result {
     margin: 0.7rem;
     font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
- color: rgb(64, 62, 62);
+    color: rgb(64, 62, 62);
 }
-#addition-content #Addition-desc{
+
+#addition-content #Addition-desc {
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
+
 /* Fourth-project-style */
-#fact-content{
+#fact-content {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
 }
-#fact-content #fact-title{
+
+#fact-content #fact-title {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
     color: #333;
 }
-#fact-content #fact-value{
+
+#fact-content #fact-value {
     width: 260px;
     height: 28px;
     background-color: #97D9E1;
@@ -253,7 +278,8 @@
     font-size: 1rem;
     font-weight: bold;
 }
-#fact-content #check-fact{
+
+#fact-content #check-fact {
     width: 70px;
     height: 30px;
     border-radius: 0.5rem;
@@ -262,33 +288,38 @@
     font-weight: bold;
     border: 2px solid green;
 }
-#fact-content #fact-result{
+
+#fact-content #fact-result {
     margin: 0.7rem;
     font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
- color: rgb(64, 62, 62);
+    color: rgb(64, 62, 62);
 }
-#fact-content #fact-desc{
+
+#fact-content #fact-desc {
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
+
 /* Fifth-project-style */
-#pattern-content{
+#pattern-content {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.4rem;
     align-items: center;
 }
-#pattern-content #pattern-title{
+
+#pattern-content #pattern-title {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
     color: #333;
 }
-#pattern-content #pattern-value{
+
+#pattern-content #pattern-value {
     width: 260px;
     height: 28px;
     background-color: #97D9E1;
@@ -301,7 +332,8 @@
     font-size: 1rem;
     font-weight: bold;
 }
-#pattern-content #check-pattern{
+
+#pattern-content #check-pattern {
     width: 70px;
     height: 30px;
     border-radius: 0.5rem;
@@ -310,33 +342,38 @@
     font-weight: bold;
     border: 2px solid green;
 }
-#pattern-content #pattern-result{
-    margin: 0.7rem;
-    font-size: 1.1rem;
+
+#pattern-content #pattern-result {
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
     font-weight: bold;
-    text-align: center;
- color: rgb(64, 62, 62);
+    /* text-align: center; */
+    color: rgb(64, 62, 62);
 }
-#pattern-content #pattern-desc{
+
+#pattern-content #pattern-desc {
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.1rem;
 }
+
 /* six-project-style */
-#skip-content{
+#skip-content {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
 }
-#skip-content #skip-title{
+
+#skip-content #skip-title {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
     color: #333;
 }
-#skip-content #input-value{
+
+#skip-content #input-value {
     width: 230px;
     height: 28px;
     background-color: #97D9E1;
@@ -349,7 +386,8 @@
     font-size: 0.7rem;
     font-weight: bold;
 }
-#skip-content #skip-value{
+
+#skip-content #skip-value {
     width: 150px;
     height: 38px;
     background-color: #97D9E1;
@@ -362,7 +400,8 @@
     font-size: 0.7rem;
     font-weight: bold;
 }
-#skip-content #check-skip{
+
+#skip-content #check-skip {
     width: 70px;
     height: 30px;
     border-radius: 0.5rem;
@@ -371,19 +410,22 @@
     font-weight: bold;
     border: 2px solid green;
 }
-#skip-content #skip-result{
-    margin: 0.7rem;
-    font-size: 1.1rem;
+
+#skip-content #skip-result {
+    margin-top: 0.5rem;
+    font-size: 1rem;
     font-weight: bold;
     text-align: center;
- color: rgb(64, 62, 62);
+    color: rgb(64, 62, 62);
 }
-#skip-content #skip-desc{
+
+#skip-content #skip-desc {
     text-align: center;
     font-size: 0.9rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
+
 /* footer-section */
 .footer {
     margin-top: 57px;
