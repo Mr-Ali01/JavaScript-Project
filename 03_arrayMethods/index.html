@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array-Method's-project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar"> 
+        <div class="logo">
+            <h2>Array Operations</h2>
+        </div>
+    </nav>
+    <section class="array-container">
+        <div class="array-content">
+            <div id="array-values">
+                <p id="array-value"></p>
+                <button id="generate-random-values">Generate-values</button>
+            </div>
+            <div id="array-operation-result"></div>
+            <div id="array-operations">
+                <button id="pop" class="method">Pop( )</button>
+                <div id="push" class="method">
+                    <label for="data" id="push-button">push(</label>
+                    <input type="text" minlength="1" maxlength="2" name="data" id="push-value">
+                    <span>)</span>
+                </div>
+                <button id="shift" class="method">shift( )</button>
+                <div id="unshift" class="method">
+                    <label for="data" id="unshift-button">unshift(</label>
+                    <input type="text" minlength="1" maxlength="2" name="data" id="unshift-value">
+                    <span>)</span>
+                </div>
+                
+            </div>
+            <div id="arr-method-desc"></div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
