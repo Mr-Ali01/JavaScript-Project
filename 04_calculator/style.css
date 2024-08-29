@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    
+}
+/* header and nav-bar */
+.cal-navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+#cal-link{
+    display: flex;
+    list-style-type: none;
+    gap: 1.3rem;
+    margin-right: 30px;
+
+}
+.cal-name>h2{
+    margin-left: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#cal-link li>a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#cal-link li>a:hover{
+    color: #edd18a;
+}
+/* main-content style 2*/
+.calculator-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cal-content{
+    width: 450px;
+    height: 450px;
+    margin-top: 2rem;
+    border: 2px solid black;
+    background-color: #F0F0F0 ;
+}
+.display-content{
+    display: flex;
+    flex-direction: column;
+}
+.display-result{
+    height: 60px;
+    padding-right: 5px;
+    border-bottom: 2px solid rgb(98, 96, 96);
+    text-align: right;
+    padding-top: 0.9rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#input-value{
+height: 50px;
+padding-right: 10px;
+border: none;
+outline: none;
+text-align: right;
+font-size: 2rem;
+font-weight: bold;
+background-color: #F0F0F0 ;
+}
+hr{
+    color: gray;
+    margin-bottom: 0.5rem;
+}
+.calculator-operations{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,50px);
+    gap: 0.5rem;
+    /* background-color: #F0F0F0 ; */
+}
+.btn{
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.operator{
+    color: #FDCC54;
+    font-size: 2.8rem;
+
+}
+#clear{
+    color: #FDCC54;
+    font-size: 2.8rem;
+}
+#delete{
+    color: #FDCC54;
+    font-size: 2.5rem;
+}
+.op{
+    color: #FDCC54;
+    font-size: 2.5rem;
+}
+#history{
+    color: #FDCC54;
+    font-size: 2.5rem;
+}
+
